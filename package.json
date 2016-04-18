@@ -1,6 +1,6 @@
 {
   "name": "node-weixin-express-session",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "weixin session middleware for express session",
   "homepage": "",
   "author": {
@@ -37,5 +37,8 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-weixin-session": "0.0.2"
+  }
 }
